@@ -6,12 +6,12 @@ const CACHE_NAME = 'wwwroot-cache';
 
 // Define la lista de archivos para ser cacheados
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/wwwroot/css/site.css',
-  '/wwwroot/js/site.js',
-  '/wwwroot/img/pwa/icon-48x48.png',
-  '/wwwroot/img/pwa/icon-72x72.png',
+  './',
+  './index.html',
+  './wwwroot/css/site.css',
+  './wwwroot/js/site.js',
+  './wwwroot/img/pwa/icon-48x48.png',
+  './wwwroot/img/pwa/icon-72x72.png',
 ];
 
 // Instala el Service Worker y agrega los archivos al cache
